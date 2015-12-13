@@ -1,8 +1,10 @@
 #--------------
 # File:         plot1.R
 # Description:  Generates plot1.png  
+# Data:         See importData.R file
 #--------------
 
+## Ensure this data file is in the same folder as this script
 hpc.data <- readRDS("hpc.Rdata")
 
 png(filename = "plot1.png",
